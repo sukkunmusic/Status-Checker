@@ -1,5 +1,5 @@
 import os
-
+from os import environ
 
 API_ID = int(os.environ("API_ID", "27878007"))
 API_HASH = os.environ("API_HASH", "61e70418c7c29d0ce7fe2cc181950ae0")
