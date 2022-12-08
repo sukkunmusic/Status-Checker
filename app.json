@@ -1,7 +1,7 @@
 {
     "name": "Status Checker",
     "description": "Easy & powerful bot to check if your all Telegram bots are working or not. This bot status bot updates every 10 minutes & runs for 24x7 hours.",
-    "repository": "https://github.com/Devarora-0981/Status-Checker",
+    "repository": "https://github.com/Sumit0045/Status-Checker",
     "keywords": [
         "BotStatus",
         "How to check your bots are alive or not",
@@ -48,7 +48,7 @@
             "required": true
         },
         "BOT_ADMIN_IDS": {
-            "description": "Bot admin(s) id(s) (Example: 1357907531 2468097531 3579864213)"
+            "description": "Bot admin(s) id(s) (Example: 5616461719)"
         },
         "TIME_ZONE": {
             "description": "Your time zone (Example: Asia/Kolkata)",
