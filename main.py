@@ -3,6 +3,7 @@ import re
 import pytz
 import asyncio
 import datetime
+import config from API_ID, API_HASH, SESSION_STRING, TIME_ZONE, BOT_LIST, CHANNEL_OR_GROUP_ID, MESSAGE_ID, BOT_ADMIN_IDS, GRP_ID, CHANNEL_NAME
 
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
