@@ -1,6 +1,6 @@
 <h1 align= center>sᴛᴀᴛᴜs ⎋ ᴄʜᴇᴄᴋᴇʀ</h1>
 
-<p align="center"><a href="https://t.me/TheBotUpdate"><img src="https://te.legra.ph/file/5307b3db65b6b778a747f.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/TheBotUpdate"><img src="https://te.legra.ph/file/c85fd5767cb3fbe3f1bb5.jpg" width="300"></a></p>
 <p align="center">
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
