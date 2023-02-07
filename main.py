@@ -43,7 +43,7 @@ async def main_status():
                             xxx_teletips += f"\n\n╭⎋ **[{bot_info.first_name}](tg://user?id={bot_info.id})**\n╰⊚ **sᴛᴀᴛᴜs: ᴏғғʟɪɴᴇ ❄**"
                             for bot_admin_id in BOT_ADMIN_IDS:
                                 try:
-                                    await app.send_message(int(GROUP_ID), f"**ᴋʏᴀ ᴋᴀʀ ʀᴀʜᴀ ʜᴀɪ ᴄʜᴜᴛɪʏᴇ, 😡\n[{bot_info.first_name}](tg://user?id={bot_info.id}) ʙᴀɴᴅ ᴘᴀᴅᴀ ʜᴀɪ ᴡᴏʜ ᴛᴏʜ ᴀᴄᴄʜᴀ ʜᴜᴀ ᴍᴀɪɴᴇ ᴅᴇᴋʜ ʟɪʏᴀ**")
+                                    await app.send_message(int(GROUP_ID), f"**ᴋʏᴀ ᴋᴀʀ ʀᴀʜᴀ ʜᴀɪ [ɴᴏʙɪ](tg://openmessage?user_id=5140509190) ᴄʜᴜᴛɪʏᴇ, 😡\n[{bot_info.first_name}](tg://user?id={bot_info.id}) ʙᴀɴᴅ ᴘᴀᴅᴀ ʜᴀɪ ᴡᴏʜ ᴛᴏʜ ᴀᴄᴄʜᴀ ʜᴜᴀ ᴍᴀɪɴᴇ ᴅᴇᴋʜ ʟɪʏᴀ ᴀʙ Jᴀʟᴅɪ sᴇ ᴛʜɪᴋ ᴋᴀʀ ᴅᴇ**")
                                 except Exception:...
                             await app.read_chat_history(bot)
                         else:
@@ -54,9 +54,9 @@ async def main_status():
                         await asyncio.sleep(int(ttm))
                 time = datetime.datetime.now(pytz.timezone(f"{TIME_ZONE}"))
                 last_update = time.strftime(f"%d %b %Y at %I:%M %p")
-                xxx_teletips += f"\n\n✅ <u>ʟᴀsᴛ ᴄʜᴇᴄᴋᴇᴅ ᴏɴ:</u>\n**ᴅᴀᴛᴇ & ᴛɪᴍᴇ: {last_update}**\n**ᴛɪᴍᴇ ᴢᴏɴᴇ: ({TIME_ZONE})**\n\n<i><u>♻️ ʀᴇғʀᴇsʜᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴡɪᴛʜɪɴ 10 ᴍɪɴᴜᴛᴇs.</u></i>\n\n<i>**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴏʙɪ ๏**</i>"
+                xxx_teletips += f"\n\n✅ <u>ʟᴀsᴛ ᴄʜᴇᴄᴋᴇᴅ ᴏɴ:</u>\n**ᴅᴀᴛᴇ & ᴛɪᴍᴇ: {last_update}**\n**ᴛɪᴍᴇ ᴢᴏɴᴇ: ({TIME_ZONE})**\n\n<i><u>♻️ ʀᴇғʀᴇsʜᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴡɪᴛʜɪɴ 5 ᴍɪɴᴜᴛᴇs.</u></i>\n\n<i>**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴏʙɪ ๏**</i>"
                 await app.edit_message_text(int(CHANNEL_OR_GROUP_ID), MESSAGE_ID, xxx_teletips)
                 print(f"ʟᴀsᴛ ᴄʜᴇᴄᴋᴇᴅ ᴏɴ: {last_update}")                
-                await asyncio.sleep(600)
+                await asyncio.sleep(300)
                         
 app.run(main_status())
